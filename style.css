@@ -1,0 +1,36 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main-head {
+    height: 90vh;
+    /* background-image:  linear-gradient(#fffdc7, #FFE711) url("./babaloworo.jpeg"); */
+
+    background:  linear-gradient(#fffdc7, #ffe7113b ), url("./babaloworo.jpeg")  left top;
+
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head {
+    font-style: italic;
+    
+}
+
+.sub-head {
+    font-size: calc(3rem - 1vw) ;
+}
+
+button {
+    background-color: #8601AF;
+    border: none;
+    font-size: 1.2rem;
+    padding: 10;
+    color: #fff;
+    padding-inline: 5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
