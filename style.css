@@ -2,13 +2,14 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 .main-head {
-    height: 90vh;
-    /* background-image:  linear-gradient(#fffdc7, #FFE711) url("./babaloworo.jpeg"); */
-
+    height: 100vh;
     background:  linear-gradient(#fffdc7, #ffe7113b ), url("./babaloworo.jpeg")  left top;
-
-    
     text-align: center;
     display: flex;
     justify-content: center;
@@ -33,4 +34,28 @@ button {
     padding-inline: 5rem;
     border-radius: 2rem;
     cursor: pointer;
+    transition: all .3s ease;
+}
+
+button:hover {
+    background-color: #fff;
+    
+}
+
+button:hover a {
+    color: #8601AF;
+}
+
+#luth {
+    background-color: #8601AF;
+    color: #fff;
+    padding-inline: 10px;
+}
+
+.main-body {
+    display: none;
+}
+iframe {
+    width: 100vw;
+    height: 100vh;
 }
